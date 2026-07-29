@@ -6,7 +6,7 @@ plugins {
 
 dependencies {
     implementation(libs.ktml.runtime)
-    developmentOnly(libs.ktml.dev.mode)
+//    developmentOnly(libs.ktml.dev.mode)
     implementation(libs.ktml.spring)
     implementation(libs.kotlinx.coroutines.core)
     implementation(libs.spring.boot.starter.web)
